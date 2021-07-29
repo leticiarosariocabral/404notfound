@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Montserrat:wght@700&family=Space+Mono:wght@400;700&display=swap');
+:root {
+    --gray1: #333333;
+    --white: #FFFFFF;
+    --gray: #BDBDBD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+}
+
+header h2 {
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    padding: 40px 77px;
+    font-style: normal;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 50px 80px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.container .text h4 {
+    font-family: 'Space Mono', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    color: var(--gray1);
+    font-weight: 700;
+}
+
+.container .text p {
+    font-family: 'Space Mono', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px 200px 0 0;
+}
+
+.container .text a {
+    font-family: 'Space Mono', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: var(--white);
+    font-weight: 700;
+    background-color: var(--gray1);
+    width: 216px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.container .text a:hover {
+    background-color: #847DAA;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--gray);
+    text-align: center;
+}
+
+
+/**********mediaqueries***********/
+
+@media (max-width:480px) {
+    header h2 {
+        padding: 40px 24px;
+    }
+    .max-width {
+        padding: 0 15px;
+    }
+    .container {
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    .container .text h4 {
+        font-size: 40px;
+        line-height: 71px;
+    }
+    .container .text p {
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    footer p {
+        line-height: 17px;
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .max-width {
+        max-width: 930px;
+    }
+    .container {
+        flex-wrap: wrap;
+        margin: 0 20px;
+    }
+    .container .text h4 {
+        font-size: 40px;
+    }
+    .container .text p {
+        font-size: 30px;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width:1024px) {
+    .container .text p {
+        font-size: 30px;
+        padding: 10px 0;
+    }
+}
