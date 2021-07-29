@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://leticiarosario.github.io/404notfound/">
       Demo
     </a>
     <span> | </span>
@@ -38,12 +38,7 @@
 
 <img src="404error.png">
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+The demo can be found at in this locate [404notfound](https://leticiarosario.github.io/404notfound/), with this I applied my experiences, used the css flex box
 
 ### Built With
 
@@ -70,4 +65,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - Website [your-website.com](https://{your-web-site-link})
 - GitHub [@leticiarosario](https://github.com/Leticiarosario)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Twitter [@leticia](https://twitter.com/Leticia29785481)
